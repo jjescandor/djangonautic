@@ -19,3 +19,6 @@ class Article(models.Model):
 # Commands to make models
 # python manage.py makemigrations
 # python manage.py migrate
+
+def __str__(self):
+    return self.title
